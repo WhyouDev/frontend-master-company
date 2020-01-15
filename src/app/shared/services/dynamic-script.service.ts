@@ -8,17 +8,8 @@ interface Scripts {
 
 export const ScriptStore: Scripts[] = [
   { name: 'DataTablesJpa',                src: `${environment.assets_url}assets/plugins/jquery/jquery.min.js`},
-  { name: 'DataTables',                   src: `${environment.assets_url}assets/backend/plugins/data-tables/jquery.datatables.min.js` },
-  { name:'Bootstrap',                src:`${environment.assets_url}assets/backend/lib/bootstrap/js/bootstrap.min.js`},
-  { name:'DcJqaccordion',                src:`${environment.assets_url}assets/Backend/lib/jquery.dcjqaccordion.2.7.js`},
-  { name:'ScrollTo',                src:`${environment.assets_url}assets/Backend/lib/jquery.scrollTo.min.js`},
-  { name:'NiceScroll',                src:`${environment.assets_url}assets/Backend/lib/jquery.nicescroll.js`},
-  { name:'Sparkline',                src:`${environment.assets_url}assets/Backend/lib/jquery.sparkline.js`},
-  { name:'Gritter',                src:`${environment.assets_url}assets/Backend/lib/gritter/js/jquery.gritter.js`},
-  { name:'Common',                src:`${environment.assets_url}assets/Backend/lib/common-scripts.js`},
-  { name:'Sparkline',                src:`${environment.assets_url}assets/Backend/lib/sparkline-chart.jslib/sparkline-chart.js`},
-  { name:'Zabuto',                src:`${environment.assets_url}assets/Backend/lib/zabuto_calendar.js`},
-  { name:'ChartMaster',                src:`${environment.assets_url}assets/Backend/lib/chart-master/Chart.js`}
+  { name: 'DataTables',                   src: `${environment.assets_url}assets/backend/plugins/data-tables/jquery.datatables.min.js` }
+
 
 ];
 
