@@ -1,0 +1,93 @@
+/*---------------------
+  Services Section
+-----------------------*/
+.services-section {
+    padding-top: 90px;
+    padding-bottom: 115px;
+  }
+  
+  .services-items {
+    overflow: hidden;
+  }
+  .services-items .single-service-item {
+    float: left;
+    width: calc(50% - 10px);
+    background: #9d69d8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 30px 22px 10px 30px;
+  }
+  .services-items .single-service-item.color-1 {
+    background: #62b3d3;
+  }
+  .services-items .single-service-item.color-2 {
+    background: #5acd57;
+  }
+  .services-items .single-service-item.color-3 {
+    background: #ed5e4c;
+  }
+  .services-items .single-service-item h5 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-top: 25px;
+  }
+  .services-items .single-service-item p {
+    color: #ffffff;
+    line-height: 22px;
+  }
+  
+  .service-video {
+    height: 636px;
+  }
+  .service-video .play-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .service-video .play-btn a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  .service-video .play-btn a:before {
+    position: absolute;
+    left: -208px;
+    top: -47px;
+    height: 66px;
+    width: 66px;
+    background: #fff;
+    content: "";
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  .service-video .play-btn a:after {
+    position: absolute;
+    left: -200px;
+    top: -40px;
+    height: 50px;
+    width: 50px;
+    background: #f34e3a;
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .service-video .play-btn a i {
+    color: #ffffff;
+  }
+
+  .bg-btn{
+    width: 457.5px;
+    height: 636px;
+  }
+/* end service */
+
