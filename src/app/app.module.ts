@@ -9,6 +9,10 @@ import { FooterComponent } from './frontend/footer/footer.component';
 
 import { SectionComponent } from './frontend/section/section.component';
 import { HomepageComponent } from './frontend/homepage/homepage.component';
+import { DynamicScriptLoaderService } from './shared/services/dynamic-script.service';
+import { ApiService } from './shared/services/api.service';
+import { XRequestService } from './shared/services/xrequest.service';
+import { SweetalertService } from './shared/services/sweetalert.service';
 // import { AdminComponent } from './backend/admin/admin.component';
 // import { DashboardComponent } from './backend/admin/dashboard/dashboard.component';
 
@@ -25,7 +29,10 @@ import { HomepageComponent } from './frontend/homepage/homepage.component';
     AppRoutingModule
   ],
   providers: [
-    
+    DynamicScriptLoaderService,
+    ApiService,
+    SweetalertService,
+    XRequestService
   ],
   bootstrap: [AppComponent]
 })

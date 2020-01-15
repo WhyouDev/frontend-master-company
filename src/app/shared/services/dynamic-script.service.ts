@@ -8,9 +8,14 @@ interface Scripts {
 
 export const ScriptStore: Scripts[] = [
   { name: 'DataTablesJpa',                src: `${environment.assets_url}assets/plugins/jquery/jquery.min.js`},
-  { name: 'DataTables',                   src: `${environment.assets_url}assets/backend/plugins/data-tables/jquery.datatables.min.js` }
-
-
+  { name: 'DataTables',                   src: `${environment.assets_url}assets/backend/plugins/data-tables/jquery.datatables.min.js` },
+  { name:'ScrollTo',                src:`${environment.assets_url}assets/Backend/lib/jquery.scrollTo.min.js`},
+  { name:'NiceScroll',                src:`${environment.assets_url}assets/Backend/lib/jquery.nicescroll.js`},
+  { name:'Sparkline',                src:`${environment.assets_url}assets/Backend/lib/jquery.sparkline.js`},
+  { name:'Gritter',                src:`${environment.assets_url}assets/Backend/lib/gritter/js/jquery.gritter.js`},
+  { name:'Common',                src:`${environment.assets_url}assets/Backend/lib/common-scripts.js`},
+  { name:'Bootstrap',                src:`${environment.assets_url}assets/frontend/js/plugins/bootstrap.min.js`}
+  
 ];
 
  
