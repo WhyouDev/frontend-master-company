@@ -13,6 +13,7 @@ import { DynamicScriptLoaderService } from './shared/services/dynamic-script.ser
 import { ApiService } from './shared/services/api.service';
 import { XRequestService } from './shared/services/xrequest.service';
 import { SweetalertService } from './shared/services/sweetalert.service';
+import { ProductComponent } from './backend/product/product.component';
 // import { AdminComponent } from './backend/admin/admin.component';
 // import { DashboardComponent } from './backend/admin/dashboard/dashboard.component';
 
@@ -22,7 +23,8 @@ import { SweetalertService } from './shared/services/sweetalert.service';
     HeaderComponent,
     FooterComponent,
     SectionComponent,
-    HomepageComponent
+    HomepageComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
