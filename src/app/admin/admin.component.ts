@@ -19,5 +19,4 @@ export class AdminComponent implements OnInit {
   this.dynamicScriptloader.load('Bootstrap','Common').then(data => {
   }).catch(error => console.log(error));
   }
-
 }

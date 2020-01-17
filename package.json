@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "^8.2.14",
     "@ng-bootstrap/ng-bootstrap": "^5.1.5",
+<<<<<<< HEAD
     "core-js": "^2.5.4",
     "datatables.net": "^1.10.20",
     "datatables.net-dt": "^1.10.20",
@@ -31,6 +32,17 @@
     "sweetalert2": "^7.33.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
+=======
+    "angular-font-awesome": "^3.1.2",
+    "font-awesome": "^4.7.0",
+    "ngx-bootstrap": "^5.3.2",
+    "ngx-editor": "^4.1.0",
+    "primeng": "^7.1.0",
+    "rxjs": "~6.4.0",
+    "sweetalert2": "^9.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.9.1"
+>>>>>>> da79eccbce7ceaf162c50c0113067e7842e24c47
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.22",

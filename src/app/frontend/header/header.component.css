@@ -6,13 +6,15 @@
 }
 
 .wall {
+    
     min-height: calc(100vh - 79px);
-    background-image: url(../../../assets/frontend/img/wall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+    background-image: url(../../../assets/frontend/img/banner/slider-bg-1.jpg);
+   
 }
 
 .wall-logo{
@@ -20,8 +22,17 @@
     max-width: 700px;
     text-align: center;
     padding: 10px 35px;
-    background-color: rgb(70, 66, 66);
+    /* background-color: rgb(70, 66, 66); */
     color: #fff;
+     /* color: #ffffff;
+    font-size: 110px;
+    font-weight: 700;
+    letter-spacing: 22px;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+    position: relative;
+    top: 50px;
+    opacity: 0; */
 }
 .wall-text {
     margin-top: 40x;
