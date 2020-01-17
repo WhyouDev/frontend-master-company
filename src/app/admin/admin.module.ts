@@ -11,6 +11,7 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { FootersComponent } from './layout/footers/footers.component';
 import { HeadersComponent } from './layout/headers/headers.component';
 import { SidebarsComponent } from './layout/sidebars/sidebars.component';
+import { ProductComponent } from './product/product.component';
 
 
 
@@ -25,7 +26,8 @@ import { SidebarsComponent } from './layout/sidebars/sidebars.component';
         SidebarsComponent,
         AdminComponent,
         FootersComponent,
-        HeadersComponent
+        HeadersComponent,
+        ProductComponent
         
       ]
 
